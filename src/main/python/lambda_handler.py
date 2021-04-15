@@ -5,7 +5,6 @@ successes = 0
 
 # Dummy AWS Handler to kick off high level processes
 def lambda_handler(source_region, destination_region, credentials):
-    return
 
     session = boto3.Session()
     # Adding a new comment to test codeguru review PR
